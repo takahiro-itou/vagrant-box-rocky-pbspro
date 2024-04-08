@@ -21,12 +21,3 @@ sudo  yum  install -y  git  emacs  vim                          \
     autoconf  automake                                          \
     expat  libedit  postgresql-server  python  python3          \
     sendmail  sudo  tcl  tk  libical   time
-
-# clean up
-sudo  yum  clean  all
-sudo  rm  -rf  /var/log/*
-sudo  rm  -rf  /tmp/*
-sudo  dd  if=/dev/zero  of=zero  bs=4k  || :
-sudo  rm  -f   zero
-
-history  -c
