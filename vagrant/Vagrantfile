@@ -24,8 +24,8 @@ Vagrant.configure("2") do |config|
   config.vm.provision("root", type: "shell",
                       path: "provision/root.sh",
                       privileged: true)
-  config.vm.provision("root", type: "shell",
-                      path: "provision.root.sh",
+  config.vm.provision("install-pbs", type: "shell",
+                      path: "provision/install-pbs.sh",
                       privileged: true)
   config.vm.provision("cleanup", type: "shell",
                       path: "provision/cleanup.sh",
