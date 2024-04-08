@@ -4,6 +4,10 @@ echo  Provisioning $HOSTNAME
 
 sudo  timedatectl  set-timezone Asia/Tokyo
 
+# 必要なパッケージ swig のインストールに crb repo が必要
+# https://wiki.rockylinux.org/rocky/repo/
+dnf config-manager --set-enabled crb
+
 sudo  yum  update -y
 sudo  yum  groupinstall -y  "Base"  "Development Tools"
 
