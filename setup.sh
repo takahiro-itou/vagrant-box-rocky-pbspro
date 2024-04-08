@@ -1,7 +1,7 @@
 #! /bin/bash  -xue
 
-boxFile='centos7-pbspro.box'
-boxName='centos7-pbspro'
+boxFile='rocky9-pbspro.box'
+boxName='rocky9-pbspro'
 
 # Account Name of Vagrant Cloud.
 vcUser='takahiro-itou'
