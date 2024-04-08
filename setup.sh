@@ -1,7 +1,7 @@
 #! /bin/bash  -xue
 
 boxFile='rocky9-pbspro.box'
-boxName='rocky9-pbspro'
+box_name='rocky9-pbspro'
 
 # Account Name of Vagrant Cloud.
 vcUser='takahiro-itou'
@@ -22,5 +22,5 @@ To add package into box list, run:
 _EOF_
 
 cat  << _EOF_
-vagrant  box  add  --name ${vcUser}/${boxName}  ${boxFile}
+vagrant  box  add  --name ${vcUser}/${box_name}  ${boxFile}
 _EOF_
