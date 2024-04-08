@@ -8,7 +8,7 @@ sudo  timedatectl  set-timezone Asia/Tokyo
 # https://wiki.rockylinux.org/rocky/repo/
 dnf config-manager --set-enabled crb
 
-sudo  yum  update -y
+sudo  yum  update -y --nobest
 sudo  yum  groupinstall -y  "Base"  "Development Tools"
 
 sudo  yum  install -y  git  emacs  vim                          \
