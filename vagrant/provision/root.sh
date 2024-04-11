@@ -4,10 +4,10 @@ echo  Provisioning $HOSTNAME
 
 sudo  timedatectl  set-timezone Asia/Tokyo
 
-sudo  yum  update -y
-sudo  yum  groupinstall -y  "Base"  "Development Tools"
+sudo  dnf  update -y
+sudo  dnf  groupinstall -y  "Base"  "Development Tools"
 
-sudo  yum  install -y  git  emacs  vim                          \
+sudo  dnf  install -y  git  emacs  vim                          \
     gcc  make  rpm-build  libtool  hwloc-devel                  \
     libX11-devel   libXt-devel  libedit-devel  libical-devel    \
     ncurses-devel  perl  postgresql-devel  postgresql-contrib   \
