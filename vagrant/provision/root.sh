@@ -4,6 +4,9 @@ echo  Provisioning $HOSTNAME
 
 sudo  timedatectl  set-timezone Asia/Tokyo
 
+dnf install -y dnf-plugins-core
+dnf config-manager --set-enabled powertools
+
 sudo  dnf  update -y
 sudo  dnf  groupinstall -y  "Base"  "Development Tools"
 
