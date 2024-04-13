@@ -22,7 +22,7 @@ Vagrant.configure("2") do |config|
     ]
   end
 
-  config.vm.provision("root", type: "shell",
+  config.vm.provision("setup-packages", type: "shell",
                       path: "provision/setup-packages.sh",
                       privileged: true)
   config.vm.provision("cleanup", type: "shell",
