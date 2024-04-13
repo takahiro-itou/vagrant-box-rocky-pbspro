@@ -1,14 +1,14 @@
-# vagrant-box-centos7-pbspro
+# vagrant-box-rocky-pbspro
 
-PBS Pro をインストールした CentOS 7.7
+PBS Pro をインストールした Rocky Linux 8.9
 
 ## ボックスを自前で作成する
 
 ### クローン
 
 ```bash
-git clone https://gitlab.com/takahiro-itou/vagrant-box-centos7-pbspro.git
-cd  vagrant-box-centos7-pbspro
+git clone https://gitlab.com/takahiro-itou/vagrant-box-rocky-pbspro.git
+cd  vagrant-box-rocky-pbspro
 ```
 
 ### ボックス作成
@@ -20,11 +20,11 @@ cd  vagrant-box-centos7-pbspro
 ### 作成したボックスを登録する。
 
 ```bash
-vagrant box add  --name <yourname>/centos7-pbspro  centos7-pbspro.box
+vagrant box add  --name <yourname>/rocky8-pbspro  rocky8-pbspro.v0.0.0.box
 ```
 
 ## 作成済みのボックスをダウンロードして使う
 
-takahiro-itou/centos7-pbspro
-- https://app.vagrantup.com/takahiro-itou/boxes/centos7-pbspro
+takahiro-itou/rocky8-pbspro
+- https://app.vagrantup.com/takahiro-itou/boxes/rocky8-pbspro
 
