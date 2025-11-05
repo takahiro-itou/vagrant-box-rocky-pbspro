@@ -9,11 +9,11 @@ vc_user='takahiro-itou'
 
 pushd  vagrant
 
-vagrant  destroy -f  || exit $?
-vagrant  up          || exit $?
-vagrant  halt
+time  vagrant  destroy -f  || exit $?
+time  vagrant  up          || exit $?
+time  vagrant  halt
 
-vagrant  package   --output ../${box_file}  default
+time  vagrant  package   --output ../${box_file}  default
 
 popd
 set  +x
