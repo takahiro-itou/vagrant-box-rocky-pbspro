@@ -5,9 +5,14 @@ echo  Provisioning $HOSTNAME
 sudo  timedatectl  set-timezone Asia/Tokyo
 
 sudo  dnf install -y dnf-plugins-core
-sudo  dnf config-manager --set-enabled powertools
+# sudo  dnf config-manager --set-enabled powertools
 
 sudo  dnf  update -y
+
+# 必要なパッケージ swig のインストールに crb repo が必要
+# https://wiki.rockylinux.org/rocky/repo/
+sudo  dnf config-manager --set-enabled crb
+
 sudo  dnf  groupinstall -y  "Base"  "Development Tools"
 
 sudo  dnf  install -y       \
