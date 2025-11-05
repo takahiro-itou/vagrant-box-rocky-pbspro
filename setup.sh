@@ -1,6 +1,6 @@
 #! /bin/bash  -xue
 
-box_name='rocky8-pbspro'
+box_name='rocky9-pbspro-v23.06.06'
 box_version='v0.0.0'
 box_file="${box_name}.${box_version}.box"
 
