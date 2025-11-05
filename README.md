@@ -1,6 +1,6 @@
 # vagrant-box-rocky-pbspro
 
-PBS Pro をインストールした Rocky Linux 8.9
+PBS Pro をインストールした Rocky Linux 9.3
 
 ## ボックスを自前で作成する
 
@@ -20,11 +20,10 @@ cd  vagrant-box-rocky-pbspro
 ### 作成したボックスを登録する。
 
 ```bash
-vagrant box add  --name <yourname>/rocky8-pbspro  rocky8-pbspro.v0.0.0.box
+vagrant box add  --name <yourname>/rocky9-pbspro-23.06.06  rocky9-pbspro-23.06.06.v23.0.0.box
 ```
 
 ## 作成済みのボックスをダウンロードして使う
 
-takahiro-itou/rocky8-pbspro
+takahiro-itou/rocky9-pbspro-23.06.06
 - https://app.vagrantup.com/takahiro-itou/boxes/rocky8-pbspro
-
