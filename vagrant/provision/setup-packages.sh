@@ -28,7 +28,6 @@ sudo  dnf  install -y       \
     perl                    \
     postgresql-devel        \
     postgresql-contrib      \
-    python2-devel           \
     python3-devel           \
     tcl-devel               \
     tk-devel                \
@@ -42,7 +41,6 @@ sudo  dnf  install -y       \
     expat                   \
     libedit                 \
     postgresql-server       \
-    python2                 \
     python3                 \
     sendmail                \
     sudo                    \
