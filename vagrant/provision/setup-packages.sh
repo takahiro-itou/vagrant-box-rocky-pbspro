@@ -51,5 +51,6 @@ sudo  dnf  install -y       \
     time                    \
     tk                      \
     tk-devel                \
+    tmux                    \
     vim                     \
 ;
