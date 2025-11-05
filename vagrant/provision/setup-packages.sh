@@ -11,41 +11,40 @@ sudo  dnf  update -y
 sudo  dnf  groupinstall -y  "Base"  "Development Tools"
 
 sudo  dnf  install -y       \
-    git                     \
-    emacs                   \
-    vim                     \
-    \
-    gcc                     \
-    make                    \
-    rpm-build               \
-    libtool                 \
-    hwloc-devel             \
-    libX11-devel            \
-    libXt-devel             \
-    libedit-devel           \
-    libical-devel           \
-    ncurses-devel           \
-    perl                    \
-    postgresql-devel        \
-    postgresql-contrib      \
-    python3-devel           \
-    tcl-devel               \
-    tk-devel                \
-    swig                    \
-    expat-devel             \
-    openssl-devel           \
-    libXext                 \
-    libXft                  \
     autoconf                \
     automake                \
+    emacs                   \
     expat                   \
+    expat-devel             \
+    gcc                     \
+    git                     \
+    hwloc-devel             \
+    libX11-devel            \
+    libXext                 \
+    libXft                  \
+    libXt-devel             \
     libedit                 \
+    libedit-devel           \
+    libical                 \
+    libical-devel           \
+    libtool                 \
+    make                    \
+    ncurses-devel           \
+    openssl-devel           \
+    perl                    \
+    postgresql-contrib      \
+    postgresql-devel        \
     postgresql-server       \
     python3                 \
+    python3-devel           \
+    rpm-build               \
     sendmail                \
     sudo                    \
+    swig                    \
     tcl                     \
-    tk                      \
-    libical                 \
+    tcl-devel               \
     time                    \
+    tk                      \
+    tk-devel                \
+    vim                     \
 ;
