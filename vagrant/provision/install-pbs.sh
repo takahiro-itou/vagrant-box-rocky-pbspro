@@ -1,5 +1,10 @@
 #! /bin/bash  -xue
 
+# sssd_kcm  が原因でエラーになるので
+# 停止および自動起動しないようにする
+sudo  systemctl stop     sssd-kcm.socket
+sudo  systemctl disable  sssd-kcm.socket
+
 # Install pbspro v23.06.06
 pushd  /tmp/
 git  clone  https://github.com/openpbs/openpbs.git  -b v23.06.06
