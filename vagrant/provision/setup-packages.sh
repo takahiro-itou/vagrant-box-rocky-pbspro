@@ -18,6 +18,7 @@ sudo  dnf  groupinstall -y  "Base"  "Development Tools"
 sudo  dnf  install -y       \
     autoconf                \
     automake                \
+    chkconfig               \
     emacs                   \
     expat                   \
     expat-devel             \
