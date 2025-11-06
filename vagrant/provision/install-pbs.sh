@@ -7,4 +7,7 @@ pushd  openpbs
 ./configure  --prefix=/opt/pbs/
 make
 sudo  make  install
+
+sudo  /opt/pbs/libexec/pbs_postinstall
+sudo  chmod 4755  /opt/pbs/sbin/pbs_iff /opt/pbs/sbin/pbs_rcp
 popd
