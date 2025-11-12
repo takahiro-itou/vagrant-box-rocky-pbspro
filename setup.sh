@@ -1,7 +1,7 @@
 #! /bin/bash  -xue
 
 box_name='rocky9-pbspro-23.06.06'
-box_version='v23.1.0'
+box_version='v23.1.1'
 box_file="${box_name}.${box_version}.box"
 
 # Account Name of Vagrant Cloud.
