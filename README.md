@@ -20,10 +20,10 @@ cd  vagrant-box-rocky-pbspro
 ### 作成したボックスを登録する。
 
 ```bash
-vagrant box add  --name <yourname>/rocky9-pbspro-23.06.06  rocky9-pbspro-23.06.06.v23.0.0.box
+vagrant box add  --name <yourname>/rocky9-pbspro-23.06.06  rocky9-pbspro-23.06.06.v23.1.1.box
 ```
 
 ## 作成済みのボックスをダウンロードして使う
 
 takahiro-itou/rocky9-pbspro-23.06.06
-- https://app.vagrantup.com/takahiro-itou/boxes/rocky8-pbspro
+- https://portal.cloud.hashicorp.com/vagrant/discover/takahiro-itou/rocky9-pbspro-23.06.06
