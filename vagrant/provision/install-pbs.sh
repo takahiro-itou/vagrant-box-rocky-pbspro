@@ -13,7 +13,10 @@ cd     openpbs
 ./configure  --prefix=/opt/pbs/
 make
 sudo  make  install
-
-sudo  /opt/pbs/libexec/pbs_postinstall
-sudo  chmod 4755  /opt/pbs/sbin/pbs_iff /opt/pbs/sbin/pbs_rcp
 popd
+
+# この後、以下のインストール後の処理を実施する。
+# しかし先に /etc/hosts の編集が必要になる場合があるため、
+# この処理の実行は、ボックスに組み込まずに保留しておく。
+# sudo  /opt/pbs/libexec/pbs_postinstall
+# sudo  chmod 4755  /opt/pbs/sbin/pbs_iff /opt/pbs/sbin/pbs_rcp
